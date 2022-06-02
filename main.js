@@ -22,3 +22,8 @@ btn2.addEventListener('click', function onClick() {
     btn2.style.color = '#FFFFFF';
     btn3.style.color = '#E6007E';
   });
+
+const answerBtn = document.getElementById('gotoReplay');
+answerBtn.addEventListener('click', () => {
+  window.location.href = "replay.html";
+});
